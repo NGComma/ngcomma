@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  background-image: url("//angular.io/assets/images/logos/angular/angular.svg");
+  background-size: 40px;
+  //background-color: #DE0031;
+
+  svg {
+    fill: currentColor;
+  }
+}
