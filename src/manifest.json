@@ -1,8 +1,8 @@
 {
   "name": "NgComma",
   "short_name": "ngcomma",
-  "theme_color": "#ee7752",
-  "background_color": "#23a6d5",
+  "theme_color": "currentColor",
+  "background_color": "currentColor",
   "display": "minimal-ui",
   "scope": "/",
   "start_url": "/",
