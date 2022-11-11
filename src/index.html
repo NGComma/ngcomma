@@ -8,19 +8,26 @@
     <meta name="description"
           content="A company built by Angular passionate developers. Check page content for contacts.">
     <meta name="author" content="ngcomma">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="translucent">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="/src/manifest.json">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="/src/style.scss"/>
+    <link rel="canonical" href="https://ngcomma.io"/>
     <!--    <script type="module" src="/src/index.ts"></script>-->
 </head>
 <body class="text-neutral-50 flex flex-col min-h-screen justify-center items-center bg-blend-color text-center">
-<div class="md:p-10 p-4 rounded flex flex-col gap-4 sm:m-4 items-center">
-    <img src="/src/assets/images/icons/icon-192x192.png?as=webp" class="w-36" alt="Angular official logo">
-    <h1 class="lg:text-6xl md:text-4xl text-3xl font-light">NgComma SRL</h1>
+<div class="md:p-10 p-4 rounded flex flex-col gap-4 sm:m-4 items-center" itemscope
+     itemtype="https://schema.org/WebSite">
+    <meta itemprop="url" content="https://ngcomma.io"/>
+    <picture>
+        <source srcset="/src/assets/images/icons/icon-192x192.png?as=avif&width=150" type="image/avif"/>
+        <source srcset="/src/assets/images/icons/icon-192x192.png?as=webp&width=150" type="image/webp"/>
+        <source srcset="/src/assets/images/icons/icon-192x192.png?as=jpeg&width=150" type="image/jpeg"/>
+        <img src="/src/assets/images/icons/icon-192x192.png?width=150" alt="Angular official logo"/>
+    </picture>
+    <h1 class="lg:text-6xl md:text-4xl text-3xl font-light" itemprop="name">NgComma SRL</h1>
+    <meta itemprop="alternateName" content="ngcomma"/>
     <h2 class="md:text-2xl font-light">The awesome company built by <strong>Angular passionate developers</strong>.</h2>
     <div class="flex gap-4">
         <a href="https://github.com/NGComma" target="_blank">
